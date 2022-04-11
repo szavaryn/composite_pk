@@ -86,7 +86,7 @@ $replace = ($name) ->
 $shorts = ($key) ->
 {
     return 
-    Unicode::Substring( cast($key as utf8), 1, 4 )
+    Substring( cast($key as utf8), 1, 4 )
 }
 ;
 
