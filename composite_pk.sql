@@ -129,6 +129,6 @@ insert into schema_name.new_pk with truncate
             end
         ) as cleaned_name         
         , $geo(location_lon, location_lat) as h3geo
-        from schema_name.restaurants_table
+        from schema_name.medical_centers
     )
 ;
