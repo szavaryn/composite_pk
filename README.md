@@ -2,6 +2,9 @@
 Quite often issue is a necessity of composite primary keys creating due to different raw data problems on CRM / databases side.
 
 Let's consider the following example: 
+|#
+| f | f |
+#|
 _________________________________________________________________
 id   |   name                     | city    |  address          |
 1001 | Shumakov Medical Center    | Moscow  | Pekhotnaya st. 5  |
